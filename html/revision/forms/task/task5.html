@@ -14,6 +14,29 @@
               
           <legend>Persnal Details</legend>
           <form>
+
+            <table cellpadding="15">
+                    <tr>
+                           <th> Applicant's full name</th>
+                            <td><select name="select" id="select"><option value="select" cellspacing="5"> Select </option> </select></td>
+                             <td> <input type="text" name="appli" id="appli" cellspacing="5"></td>
+                             <th>care of </th>
+                           <td><input type="radio" name="parents" id="parents">
+                         <span>Parents</span></td>
+                        <td> <input type="radio" name="parents" id="parents">
+                       <span>Guardian</span></td>
+
+                    </tr>
+                    <tr>
+                         <th>Father's Name </th>
+                         <td> <select name="mr" id="mr"><option value="Mr">Mr</option></select>
+                           <input type="text" name="father'sname" id="father'sname" ></td>
+                       
+                                                                
+                    </tr>
+
+                 
+            </table>
                   <label for="appli">Applicant's full name</label>
                  <select name="select" id="select"><option value="select" cellspacing="5"> Select </option> </select>
                   <input type="text" name="appli" id="appli" cellspacing="5">
@@ -86,23 +109,171 @@
                   <label for="mobilenumber">Mobile Numbe</label>
                  
                   <input type="number" name="mobilenumber" id="mobilenumber">
+                  <label for="emailid">Email ID</label>
+                  <input type="text" name="emailid" id="emailid">
+                  <br>
+                  <br>
+                  <label for="addressline1">Address Line 1</label>
+                  <input type="text" name="addressline1" id="addressline1">
 
-                
-           </form>
-           </fieldset>
+                   <label for="addressline2">Address Line 2</label>
+                  <input type="text" name="addressline2" id="addressline2">
+                  
+                  <br>
+                  <br>
+                  <label for="city">City</label>
+                  <input type="text" name="city" id="city">
+
+                  <label for="state">State</label>
+                  <select><option value="select">select</option></select>
+                  <br/>
+                  <br/>
+                  <label for="pincode">Pin Code</label>
+                  <input type="text" name="pincode" id="pincode">
+               </form>
+             </fieldset>
                       <fieldset>
-             <legend>Contact Details</legend>
+             <legend>Qualification Details</legend>
           <form>
-                  <label for="appli">Applicant's full name</label>
-                 <select name="select" id="select"><option value="select"> Select </option> </select>
-                  <input type="text" name="appli" id="appli">
+            <table cellspacing="15">
+              <tr>
+                  <th >Sr No.</th>
+                  <th>Qualification</th>
+                 <th> boardUniversity</th>
+                 <th>Passing Year</th>
+                 <th>Max marks</th>
+                 <th>Marks Obtain</th>
+                 <th>Percentage</th>
+                 </tr>
+            </table>
+            <br>
+            
+            <table cellspacing="15">
+                <tr>
+                  <td>1</td>
+                  <td><select name="select" id="select">
+                    <option value="select">Select</option>
+                  </select></td>
+                  <td><input type="text" name="bu" id="bu"></td>
+                   <td><input type="number" name="bu" id="bu"></td>
+                    <td><input type="number" name="bu" id="bu"></td>
+                    
+                </tr>
+            </table>
+             
+            <br>
+            <table cellspacing="15">
+                <tr>
+                  <td>2</td>
+                  <td><select name="select" id="select">
+                    <option value="select">Select</option>
+                  </select></td>
+                  <td><input type="text" name="bu" id="bu"></td>
+                   <td><input type="number" name="bu" id="bu"></td>
+                    <td><input type="number" name="bu" id="bu"></td>
+                    
+                </tr>
+            </table>
+             <br>
+            
+            <table cellspacing="15">
+                <tr>
+                  <td>3</td>
+                  <td><select name="select" id="select">
+                    <option value="select">Select</option>
+                  </select></td>
+                  <td><input type="text" name="bu" id="bu"></td>
+                   <td><input type="number" name="bu" id="bu"></td>
+                    <td><input type="number" name="bu" id="bu"></td>
+                    
+                </tr>
+            </table>
+             <br>
+            
+            <table cellspacing="15">
+                <tr>
+                  <td>4</td>
+                  <td><select name="select" id="select">
+                    <option value="select">Select</option>
+                  </select></td>
+                  <td><input type="text" name="bu" id="bu"></td>
+                   <td><input type="number" name="bu" id="bu"></td>
+                    <td><input type="number" name="bu" id="bu"></td>
+                    
+                </tr>
+            </table>
+             </form>
+           </fieldset>
+
+              <fieldset>
+             <legend>Language Knowledge</legend>
+          <form>
+                <table cellspacing="6">
+                        <tr>
+                          <th>Language</th>
+                        <th>reading</th>
+                        <th>Spoken</th>
+                      </tr>
+                </table>
+                 <table cellspacing="6" >
+                       <tr>
+                         <th>Hindi</th>
+                        <td><input type="checkbox" name="cb" id="cb"> </td>
+                       
+                         <td><input type="checkbox" name="cb" id="cb"> </td>
+                       
+                </table>
+                 <table cellspacing="6">
+                        <tr>
+                           <th>English</th>
+                        <td><input type="checkbox" name="cb" id="cb"> </td>
+                       
+                         <td><input type="checkbox" name="cb" id="cb"> </td>
+                          
+                        </tr>
+                </table>
+                 <table cellspacing="6">
+                        <tr>
+                           <th>Urdu</th>
+                        <td><input type="checkbox" name="cb" id="cb"> </td>
+                       
+                         <td><input type="checkbox" name="cb" id="cb"> </td>
+                        
+                        </tr>
+                </table>
+
+
            </form>
            </fieldset>
-         </fieldset>
+            <fieldset>
+             <legend>Identification Details</legend>
+          <form>
+                  <label for="appli">Aadhar Card Number</label>
+                  <input type="text" name="appli" id="appli">
+                  <label for="pancardnumber"> PAN Card Number</label>
+                  <input type="text" name="pancardnumber" id="pancardnumber">
+                  <br>
+                  <br>
+                  <label for="uploadphoto">Upload Photo </label>
+                  <button>Browse</button>
+                   <label for="uploadsignature">Upload Signature </label>
+                  <button>Browse</button>
+            </form>
+           </fieldset>
+           <button> Submit </button> <button>Back</button>
+           </fieldset>
+          
+               
+                
+
+          
+          
+             
          <hr>
          <hr>
          <hr>
          <hr>
+
          
          <a href="../forms.html"> back to  list task assingment</a>
      <br>

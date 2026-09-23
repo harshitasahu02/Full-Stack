@@ -1,0 +1,83 @@
+body
+{
+    background-color: bisque;
+
+}
+.main
+{
+    color: chocolate;
+}
+#card
+{
+    background-color:beige ;
+    width:200px;
+    height: 200px;
+    h3{
+        color: blue;
+    }
+
+}
+#card p
+{
+    color: aqua;
+    background-color: darkkhaki;
+    border: 10 px solid cadetblue;
+    border-color: black;
+    border-style: solid;
+    border-width:1 px ;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px gray;
+}
+#clickbutton:hover{
+    background-color: darkslategray;
+    color: blanchedalmond;
+}
+#clickbutton:active
+{
+   background-color: pink;
+   color: cornflowerblue;
+
+}
+section
+{
+    height: 30px;
+    width: 600px;
+    background-color: burlywood;
+    border-color: black;
+    border-width: 2px;
+    border-style: dashed;
+    overflow: auto;
+
+
+}
+#button
+{
+    border-radius: 7px;
+    background-color: aquamarine;
+    border-style: solid;
+    box-shadow: inset;
+    height: 100px;
+    width:100px;
+    box-shadow: 20px 10px 10px darkgreen;
+
+}
+#button:hover
+{  
+    background-color: coral;
+    color: bisque;
+
+}
+#button:active
+{
+    background-color: cadetblue;
+     color: cornflowerblue;
+}
+
+
+
+
+
+
+
+
+

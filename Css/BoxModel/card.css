@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+.container
+{
+    width:100px ;
+    height: 100px;
+    border:2px cornflowerblue;
+    background-color: azure;
+    border-radius: 7px;
+    display: flex;
+}
+.main
+{
+    
+}
