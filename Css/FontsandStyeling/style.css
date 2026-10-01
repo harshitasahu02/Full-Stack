@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.heading
+{
+    font-size: xx-large;
+    font-weight:900 ;
+      font-family: "Raleway", sans-serif;
+
+
+}
+.sub-heading
+{
+
+    font-size: x-large;
+    font-weight: 700;
+    font-style: italic;
+     font-family: "Edu QLD Hand", cursive; system-ul
+
+
+}
+
+#description span{
+   text-decoration: underline;
+   font-weight: 400;
+   color: rgb(92, 239, 92);
+
+}
+.pointer-head{
+    font-size:large ;
+    font-weight: 700;
+
+}
+ul{
+
+
+    margin-left: 20px;
+    list-style: " ⨂";
+    list-style-image:url() ;
+
+
+}
+ol{
+   margin-left: 30px;
+   list-style: lower-greek;
+}
+
+footer{
+   background-color: beige;
+   color: aliceblue;
+   padding: 5px;
+   text-align: center;
+   position:fixed;
+   bottom: 0;
+   width: 100vw;
+
+
+
+}
+
+ol  li:first-child{
+
+    background-color: rgb(253, 124, 60);
+}
+ol  li :last-child {
+   background-color: rgb(40, 216, 70);
+}
+
+
+

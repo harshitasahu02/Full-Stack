@@ -52,5 +52,85 @@
     font-weight: 900;
 
 }
+
+
+
+.personal-outer
+{
+    display: grid;
+     grid-template-columns: auto auto auto auto ;
+     row-gap: 10px;
+          padding-bottom:10px ;
+}
+legend
+{
+    margin-left: 1px;
+}
+.contact-detail
+{
+     display: grid;
+     grid-template-columns: auto auto auto auto ;
+     row-gap: 10px;
+     padding-bottom:10px ;
+}
+legend
+{
+    margin-left: 1px;
+    
+}
+.Qualification-details
+{
+    display: grid;
+     grid-template-columns: auto auto auto auto auto auto auto;
+     row-gap: 10px;
+     padding-bottom:10px ;
+}
+legend
+{
+    margin-left: 1px;
+    
+}
+.Language-Knowledge
+{
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     row-gap: 10px;
+     padding-bottom:10px ;
+
+}
+legend
+{
+    margin-left:1px ;
+
+}
+.Identification-Detail
+{
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     row-gap: 10px;
+     padding-bottom:10px ;
+}
+legend
+{
+    margin-left:1px ;
+
+}
+.block-1
+{
+    display: inline-block;
+    gap: 10px;
+    
+
+}
+.block-2
+{
+
+}
+
+
+
+
+
+
    
 

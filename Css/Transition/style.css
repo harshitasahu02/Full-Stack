@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#hw
+{
+    width: 400px;
+    height: 2.5rem;
+    border: 1px solid #000;
+    text-wrap-mode:nowrap ;
+    overflow: hidden ;
+    background-color: darkgray;
+    transition: width  2s 1s ;
+
+
+
+
+}
+#hw::hover
+{
+    width: 600px;
+   background-color: crimson;
+    transition: width  2s 1s
+    background-color 2s 1s;
+}
+#welcome
+{
+    background-color: crimson;
+}
+#Welcome::after
+{
+    content: "❤️";
+
+}
+
+.data::before{
+    content: "😍";
+}
+
+#box1,#box2,#box3,#box4,#box5{
+    border: 1px solid #000;
+    height: ;
+}

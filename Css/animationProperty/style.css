@@ -1,0 +1,30 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+#box
+{
+    height: 100px;
+    width: 50px;
+    background-color: blueviolet;
+    border: 1px solid #000;
+    position: absolute;
+    animation: box1 linear 3;
+
+}
+@keyframes box1
+{
+    0%{
+        top: 0;
+        left: 0;
+
+    }
+     25%{
+        top: 0;
+        left: 0;
+
+    }
+
+
+
+}
