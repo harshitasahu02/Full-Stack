@@ -5,7 +5,7 @@
 #box
 {
     height: 100px;
-    width: 50px;
+    width: 100px;
     background-color: blueviolet;
     border: 1px solid #000;
     position: absolute;
@@ -15,13 +15,27 @@
 @keyframes box1
 {
     0%{
+        transform:rotate(36000deg);
         top: 0;
         left: 0;
+        background-color:blue ;
 
     }
      25%{
         top: 0;
-        left: 0;
+        left: 500px;
+        background-color: red;
+        }
+    50%
+    {
+       top:500px;
+       left:500px;
+       background-color:green ;
+
+    }
+    70%
+    {
+        top: ;
 
     }
 
