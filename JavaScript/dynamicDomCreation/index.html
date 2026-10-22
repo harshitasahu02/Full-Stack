@@ -1,34 +1,72 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="style.css">
-
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
-        <nav class="navbar bg-primary text-center">
-            <div class="navbar-brand  text-light ">
-                Dynamic DOM Creation  & Manupulation 
-            </div>
-            <div class="nav-item">
-               <div class="nav-link text-light">Sample</div>
-            </div>
-         </nav>
+      <nav class="navbar bg-primary text-center">
+        <div class="navbar-brand text-light">
+          Dynamic DOM Creation & Manupulation
+        </div>
+        <div class="nav-item">
+          <div class="nav-link text-light">Sample</div>
+        </div>
+      </nav>
     </header>
     <main>
-        <div id="task1">
-             
+      <div class="container p-4 rounded shadow bg-white mt-3 border" id="task1">
+        <h1 class="text-primary">Content</h1>
+        <hr />
+        <!-- <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+          nisi ut unde possimus repudiandae harum maiores porro magni eum maxime
+          soluta, atque, dicta nam asperiores. Sed sequi in tenetur tempora.
+        </p> -->
+      </div>
+      <hr />
+      <div
+        class="container p-4 rounded shadow bg-white mt-3 border"
+        id="myList"
+      ></div>
+      <hr />
+      <div class="container p-4 rounded shadow bg-white mt-3 border">
+        <div class="row gap-3" id="card-parent">
+          <div class="col-3 p-2 border shadow rounded">
+            <h3>Title</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+              magni, suscipit, repudiandae quidem magnam asperiores ad, et dolor
+              maiores tempora provident quo veniam sit nesciunt totam laboriosam
+              error! Enim, reiciendis.
+            </p>
+            <div class="row p-3 ">
+              <div >
+                  <button class="btn btn-outline-primary col-6" >Test1</button>
+              </div>
+                <button class="btn btn-primary col-6">Test2 </button>  
+
+            </div>
+          </div>
         </div>
+      </div>
     </main>
 
-    
-  <!--script-->
-   <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <!--script-->
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
     <script src="script.js"></script>
-</body>
+    <script src="script2.js"></script>
+    <script src="script3.js"></script>
+  </body>
 </html>
