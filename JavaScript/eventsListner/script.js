@@ -5,29 +5,24 @@ const stopassBtn=document.getElementById(" StopAssingmentNotification");
 const asspara=document.getElementById("AssingmentNotification ");
 const  attpara=document.getElementById("AttendenceNotification");
 
-function showAssingment()
-{
-    ()=>{
-
-        asspara.textContent=" your assingment deadline is approacing! ";
-     }
-
+function showAssingment(){
+    
+ asspara.textContent=" your assingment deadline is approacing! ";
 }
 
 
 showassBtn.addEventListener("click",showAssingment );
-showassBtn.addEventListener("click",() =>{
+showattBtn.addEventListener("click",() => {
 
-     attpara.textContent="please check your attendence status!  ";
+     attpara.textContent="please check your attendence status!";
 
 });
 
 
 stopassBtn.addEventListener("click",() => {
+showassBtn.removeEventListener("click",showAssingment);
 
-    showassBtn.removeEventListener("click",showAssingment);
-
- asspara.textContent=" your assingment deadline is approacing! ";
+ asspara.textContent="Your assignment Notification is Stopped!  ";
 
 
 });
@@ -44,7 +39,7 @@ parent.addEventListener("clcik",()=>{
 
 });
 
-child.addEventListener("clcik",()=>{
+child.addEventListener("clcik",() => {
 
      console.log("child Clicked");
      
@@ -62,17 +57,19 @@ strip.addEventListener("clcik",view);
 
 document.getElementById("view").addEventListener("clcik",view);
 
-const parentcard=document.getElementById("EventsDelegation");
+const parentcard =document.getElementById("EventsDelegation");
 
-parentcard.addEventListener("click",(e)=>{
+parentcard.addEventListener("click",(e) => {
 
-    if( e.target.tagname )
+    if( e.target.tagname ==="DIV" )
    {
+    
+     console.log(e.target.textContent)
 
    }
 
 
-})
+});
 
 
 
